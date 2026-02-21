@@ -1,8 +1,8 @@
-Here is a complete `README.md` you can copy directly into your project.
+
 
 ---
 
-```markdown
+
 # 🛑 Smart Website Blocker (Chrome / Brave Extension)
 
 A lightweight, Manifest V3-based browser extension that blocks websites based on:
@@ -19,7 +19,7 @@ Built using the Chrome Extensions Manifest V3 architecture.
 
 # 📦 Project Structure
 
-```
+
 
 website-blocker/
 │
@@ -30,7 +30,7 @@ website-blocker/
 ├── blocked.html
 └── styles.css
 
-```
+
 
 ---
 
@@ -57,29 +57,29 @@ Option B: If you created it manually
 - That folder must contain `manifest.json`
 
 Example:
-```
+
 
 C:\Users\YourName\Desktop\website-blocker\
 
-```
+
 
 ---
 
 ## Step 2 — Open Extensions Page
 
 ### For Chrome:
-```
+
 
 chrome://extensions/
 
-```
+
 
 ### For Brave:
-```
+
 
 brave://extensions/
 
-```
+
 
 ---
 
@@ -115,11 +115,11 @@ If successful:
 
 Example:
 
-```
+
 
 game
 
-```
+
 
 This will block:
 - epicgames.com
@@ -128,17 +128,17 @@ This will block:
 
 Because it matches substring in URL.
 
----
+
 
 ## 3️⃣ Add Domain Blocking
 
 Example:
 
-```
+
 
 facebook.com
 
-```
+
 
 This blocks:
 - facebook.com
@@ -147,7 +147,7 @@ This blocks:
 
 It blocks exact domain + subdomains.
 
----
+
 
 ## 4️⃣ Remove Blocked Items
 
@@ -181,7 +181,7 @@ This means:
 
 ## 🔁 Rule Generation Process
 
-```
+
 
 User Input
 ↓
@@ -193,7 +193,7 @@ Chrome's rule engine blocks matching URLs
 ↓
 Redirects to blocked.html
 
-```
+
 
 ---
 
@@ -243,31 +243,31 @@ You can modify:
 
 ### Change Block Page
 Edit:
-```
+
 
 blocked.html
 
-```
+
 
 ---
 
 ### Improve Styling
 Edit:
-```
+
 
 styles.css
 
-```
+
 
 ---
 
 ### Change Blocking Logic
 Edit:
-```
+
 
 background.js
 
-```
+
 
 ---
 
@@ -276,17 +276,17 @@ background.js
 Try:
 
 1. Add keyword:
-```
+
 
 game
 
-```
+
 2. Visit:
-```
+
 
 [https://epicgames.com](https://epicgames.com)
 
-```
+
 3. It should redirect to blocked page.
 
 ---
@@ -294,11 +294,11 @@ game
 # 🧹 How To Uninstall
 
 1. Go to:
-```
+
 
 chrome://extensions/
 
-```
+
 2. Click **Remove**
 
 All stored data is deleted automatically.
@@ -389,13 +389,13 @@ Displays:
 > 💡 Tip:  
 > Create a folder named `screenshots` inside your project directory and place your images there:
 >
-> ```
+> 
 > website-blocker/
 > ├── screenshots/
 > │   ├── popup.png
 > │   ├── blocked-page.png
 > │   └── extensions-page.png
-> ```
+> 
 
 ---
 
@@ -447,7 +447,6 @@ This extension:
 
 ---
 
-```
 
 ---
 
