@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  width: 250px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.blocked-container {
+  text-align: center;
+  margin-top: 50px;
+}
