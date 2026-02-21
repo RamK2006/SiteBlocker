@@ -342,7 +342,7 @@ Free to use and modify.
 # 📸 Screenshots
 
 > Below are screenshots of the extension in action.  
-> (Replace the image paths with your actual screenshot file names.)
+
 
 ---
 
