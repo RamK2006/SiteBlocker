@@ -20,7 +20,7 @@ Built using the Chrome Extensions Manifest V3 architecture.
 # 📦 Project Structure
 
 
-
+```
 website-blocker/
 │
 ├── manifest.json
@@ -30,7 +30,7 @@ website-blocker/
 ├── blocked.html
 └── styles.css
 
-
+```
 
 ---
 
