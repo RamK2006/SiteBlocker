@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  background-color: rgba(94, 80, 80, 0.774);
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+
+#head {
+  color: red;
+  size: 50px;
+  font-size: 5rem;
+}
+.motivation {
+  color: #040330;
+  font-size: 2rem;
+}
+.message {
+  font-size: larger;
+}
+#aim{
+    height: 600px;
+    width: 400px;
+}

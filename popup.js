@@ -60,10 +60,12 @@ function loadLists() {
 function createListItem(value, type, index) {
   const li = document.createElement("li");
   li.textContent = value;
+  li.style.display = CSSLayerBlockRule;
 
   const btn = document.createElement("button");
-  btn.textContent = "❌";
+  btn.textContent = "I'm Coward, I resign";
   btn.style.marginLeft = "10px";
+  btn.style.visibility= "hidden";
 
   btn.onclick = () => removeItem(type, index);
 
